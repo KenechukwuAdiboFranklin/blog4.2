@@ -1,0 +1,54 @@
+    body {
+        background: linear-gradient(rgb(245, 234, 234), rgba(245, 234, 234, 0.7)), url('/pic/ORFF0J0.jpg');
+        padding: 0;
+        margin: 0;
+    }
+    
+    .heAder {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+        margin-left: 34rem;
+    }
+    
+    .listItems {
+        margin-right: 2rem;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+        /*margin-left: 13rem;*/
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .Search {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        margin-left: 19rem;
+    }
+    
+    .recipe-img {
+        border-radius: 10px;
+        width: 100px;
+    }
+    
+    .product-card {
+        display: inline-block;
+        margin: 1rem;
+        background-color: white;
+        padding: 2.5rem;
+        border-radius: 15px;
+    }
+    
+    .instructions {
+        /*font-stretch: condensed;*/
+        width: 20rem;
+    }
+    
+    .igredients {
+        width: 20rem;
+    }
